@@ -1,4 +1,4 @@
-# OnlineFedTuner Learning Process
+# Class Balanced Online Federated Learning
 
 ## Training procedures
 - **Assumption:** An imbalanced dataset, DX, is collected in each round.
