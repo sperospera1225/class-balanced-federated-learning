@@ -4,7 +4,7 @@
 - **Assumption:** An imbalanced dataset, $D_x$, is collected in each round.
 
 - **Client-side Training:** 
-  - Each client trains on the $D_x$ dataset.
+  - Each client trains on the $D_x$.
   - Generates class-specific learning curves(loss graphs).
   - Sends the trained models back to the server.
 
