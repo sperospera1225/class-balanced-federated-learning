@@ -1,0 +1,46 @@
+{
+  "General": {
+    "device": "cuda:1",
+    "round": 2,
+    "num_clients": 2,
+    "initial_budget": 2000,
+    "budget": 2000,
+
+    "num_subsets": 4,
+    "num_iter": 1,
+    "val_data_num": 500,
+    "random_seed": 999,
+    "show_figure": true
+  },
+  "Server": {
+    "aggregation": "FedAvg",
+    "src": "src",
+    "fig_dir": "fig"
+  },
+  "Client": {
+    "model": "resnet50",
+    "src": "src",
+    "epoch": 3,
+    "random_seed": 999,
+    "learning_rate": 0.001,
+    "Lambda": 0.1,
+    "batch_size": 64
+  },
+  "Data": {
+    "data": "FasionMnist",
+    "num_class": 10,
+    "src": "datasets",
+    "class_name": [
+      "T-shirt/top",
+      "Trouser",
+      "Pullover",
+      "Dress",
+      "Coat",
+      "Sandal",
+      "Shirt",
+      "Sneaker",
+      "Bag",
+      "Ankle boot"
+    ]
+  }
+}
