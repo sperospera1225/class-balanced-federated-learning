@@ -4,7 +4,7 @@
 
 - **Client-side Training:** 
   - Each client trains on the DX dataset.
-  - Generates class-specific loss graphs.
+  - Generates class-specific learning curves(loss graphs).
   - Sends the trained models back to the server.
 
 - **Server-side Processing:** 
@@ -14,3 +14,6 @@
 
 - **Next Round Client-side Training:** 
   - Each client samples an amount of the newly collected DX dataset, as estimated by the server, for the next round of training.
+ 
+# Estimated learning curves 
+<img width="1203" alt="image" src="https://github.com/sperospera1225/class-balanced-federated-learning/assets/67995592/218f02e6-10d3-489a-a06a-65a77c4bddbe">
