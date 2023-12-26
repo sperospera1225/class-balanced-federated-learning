@@ -1,10 +1,10 @@
 # Class Balanced Online Federated Learning
 
 ## Training procedures
-- **Assumption:** An imbalanced dataset, DX, is collected in each round.
+- **Assumption:** An imbalanced dataset, $D_x$, is collected in each round.
 
 - **Client-side Training:** 
-  - Each client trains on the DX dataset.
+  - Each client trains on the $D_x$ dataset.
   - Generates class-specific learning curves(loss graphs).
   - Sends the trained models back to the server.
 
