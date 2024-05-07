@@ -20,6 +20,9 @@ The detailed algorithm is as follows:
 
 <img width="450" alt="Screenshot 2023-11-24 at 1 44 27 PM" src="https://github.com/sperospera1225/selective_data_federated_learning/assets/67995592/353bc6d2-eb69-4610-87af-df9b600dc660">
 
+## Datasets
+[FashionMNIST](https://github.com/zalandoresearch/fashion-mnist)
+
 ## Setups
 
 All code was developed and tested on Nvidia RTX A4000 (48SMs, 16GB) the following environment.
@@ -53,6 +56,3 @@ The following options can be defined in `config.json`
 
 ## Estimated learning curves 
 <img width="1203" alt="image" src="https://github.com/sperospera1225/class-balanced-federated-learning/assets/67995592/218f02e6-10d3-489a-a06a-65a77c4bddbe">
-
-## Datasets
-[FashionMNIST](https://github.com/zalandoresearch/fashion-mnist)
