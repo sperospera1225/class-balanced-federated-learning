@@ -18,3 +18,6 @@
  
 ## Estimated learning curves 
 <img width="1203" alt="image" src="https://github.com/sperospera1225/class-balanced-federated-learning/assets/67995592/218f02e6-10d3-489a-a06a-65a77c4bddbe">
+
+## Datasets
+[FashionMNIST](https://github.com/zalandoresearch/fashion-mnist)
